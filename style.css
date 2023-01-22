@@ -1,4 +1,9 @@
 style
+header {
+  background-color: #ff44c4;
+  padding: 10px;
+  margin: 10px;
+}
   body {
     background-color: #d3d3d3;
     font-family: 'Lato', sans-serif;
