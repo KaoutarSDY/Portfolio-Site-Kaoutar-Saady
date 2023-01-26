@@ -11,7 +11,7 @@ header {
   font-weight: 300; /* Sets the font weight to 300 */
   line-height: 1.6; /* Sets the line-height to 1.6 * the font-size */
   color: #4a4a4a;
-    width: 500px;
+    /* width: 500px; */
     margin: 0 auto;
     
       background-color: rgb(207,232,220);
