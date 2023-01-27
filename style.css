@@ -1,27 +1,32 @@
-style
 header {
   background-color: #ff44c4;
   padding: 10px;
   margin: 10px;
 }
-  body {
-    background-color: #d3d3d3;
-    font-family: 'Lato', sans-serif;
-    font-size: 16px; /* Sets the font size to 16px */
-  font-weight: 300; /* Sets the font weight to 300 */
-  line-height: 1.6; /* Sets the line-height to 1.6 * the font-size */
-  color: #4a4a4a;
-    /* width: 500px; */
-    margin: 0 auto;
-    
-      background-color: rgb(207,232,220);
-      border: 2px solid rgb(79,185,227);
-      padding: 10px;
-      margin: 10px;
-      border-radius: 5px;
-  }
 
-h1, h2, h3, h4 {
+body {
+  background-color: #d3d3d3;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  /* Sets the font size to 16px */
+  font-weight: 300;
+  /* Sets the font weight to 300 */
+  line-height: 1.6;
+  /* Sets the line-height to 1.6 * the font-size */
+  color: #4a4a4a;
+  margin: 0 auto;
+
+  background-color: rgb(207, 232, 220);
+  border: 2px solid rgb(79, 185, 227);
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+h1,
+h2,
+h3,
+h4 {
   line-height: 1.4;
 }
 
@@ -33,18 +38,35 @@ h1 {
   font-size: 2.75em;
   font-weight: 700;
 }
+
 h2 {
   font-size: 2.25em;
   font-weight: 700;
 }
+
 h3 {
   font-size: 1.75em;
   font-weight: 400;
 }
+
 h4 {
   font-size: 1.35em;
   font-weight: 400;
 }
+
 img {
-    width: 50%;
-  }
+  width: 50%;
+}
+
+#test-animation {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  animation-name: Saady;
+  animation-duration: 4s;
+}
+
+@keyframes Saady {
+  from {background-color: red;}
+  to {background-color: yellow;}
+}
