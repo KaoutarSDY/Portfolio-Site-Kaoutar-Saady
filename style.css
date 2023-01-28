@@ -74,17 +74,13 @@ img {
   width: 50%;
 }
 
-#test-animation {
-  width: 100px;
-  height: 100px;
-  background-color: red;
-  animation-name: Saady;
-  animation-duration: 4s;
+#loading {
+  animation: loading-spinner 2s linear infinite
 }
 
-@keyframes Saady {
-  from {background-color: red;}
-  to {background-color: yellow;}
+@keyframes loading-spinner {
+  from {transform: rotate(0deg);}
+  to {transform: rotate(360deg);}
 }
 
 a {
