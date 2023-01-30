@@ -74,13 +74,19 @@ img {
   width: 50%;
 }
 
-#loading {
-  animation: loading-spinner 2s linear infinite
+svg{
+width: 100%;
+max-width: 100%;
+height: auto;
 }
 
-@keyframes loading-spinner {
-  from {transform: rotate(0deg);}
-  to {transform: rotate(360deg);}
+.sun {
+  animation: 4s color-change infinite alternate linear;
+}
+
+@keyframes color-change {
+  from {fill: #edc655;}
+  to {fill: #f76414;}
 }
 
 a {
