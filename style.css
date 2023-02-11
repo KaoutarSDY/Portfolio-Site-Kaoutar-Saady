@@ -111,3 +111,37 @@ X-large devices (1440px or larger)
 ================================= */
 @media only screen and (min-width: 1440px) {
 }
+.navbar-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+  @media (max-width: 640px) {
+    display: none;
+  }
+}
+
+.navbar-toggle {
+  display: none;
+  @media (max-width: 640px) {
+    display: block;
+    cursor: pointer;
+    padding: 10px;
+  }
+}
+
+.navbar-menu.toggled {
+  display: flex;
+  position: absolute;
+  top: 60px;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  padding: 20px;
+  flex-direction: column;
+  @media (min-width: 641px) {
+    display: flex;
+    position: static;
+  }
+}
