@@ -24,6 +24,20 @@
 			padding: 10px;
 			margin-top: 20px;
 		}
+        <style>
+		.image-container {
+			display: inline-block;
+			width: 45%;
+			margin: 10px;
+			vertical-align: top;
+			text-align: center;
+		}
+
+		.image-container img {
+			max-width: 100%;
+			height: auto;
+		}
+	</style>
 	</style>
 </head>
 <body>
@@ -31,8 +45,17 @@
 	<h2>I'm kaoutar Saady, 28 years old UI/UX designer. 
         On this webiste you can find my work and have an overview about my profile. 
     </h2>
-	<img src="buddytravel 1x.jpg" class="small-img">
-	<img src="colibrix1.jpg" class="small-img">
+    <h1>Recent Work</h1>
+
+	<div class="image-container">
+		<img src="buddytravel 1x.jpg" alt="Image 1">
+		<p>Description of image 1.</p>
+	</div>
+
+	<div class="image-container">
+		<img src="colibrix1.jpg" alt="Image 2">
+		<p>Description of image 2.</p>
+	</div>
 	<div class="footer-links">
 		<a href="cv.pdf">CV</a>
 		<a href="https://www.linkedin.com/">LinkedIn</a>
